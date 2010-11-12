@@ -1,0 +1,4 @@
+#name : Underline Sentance
+#contributor : Martyn Jago
+# --
+${1:Sentance_to_underline$ (subst-char-in-string (string-to-char " ") (string-to-char "_") text)}$0
